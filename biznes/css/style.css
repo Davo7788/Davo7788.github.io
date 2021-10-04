@@ -1,0 +1,859 @@
+* {
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1112px) {
+  .content {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .content {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    max-width: none;
+  }
+}
+
+html body {
+  height: 100%;
+}
+
+.content {
+  max-width: 1112px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.contento {
+  max-width: 1112px;
+  margin: 0px auto;
+}
+
+.header__logo {
+  max-width: 164px;
+  max-height: 94px;
+  border: solid 1px black;
+  margin-left: 95px;
+  text-align: center;
+}
+
+.header__list {
+  display: flex;
+  margin-right: 100px;
+}
+.header__list li {
+  list-style: none;
+  margin: 0px 0px 0px 20px;
+}
+
+.header__link {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 30px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home {
+  width: 1112px;
+  height: 600px;
+  background: url('../img/home.webp');
+  background-size: cover;
+  margin-top: 151px;
+}
+
+.header__burger {
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.up {
+  position: absolute;
+  top: 0;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+.box {
+  width: 949px;
+  height: 1467px;
+  margin: auto;
+}
+
+/* main */
+
+.block {
+  align-items: center;
+  height: 311px;
+}
+
+.blockRow {
+  display: inline-flex;
+}
+
+.blockItem {
+  width: 292px;
+  height: 295px;
+  text-align: center;
+}
+
+.info {
+  font-size: 76px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.ator {
+  background: url(../img/ator.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.japan {
+  background: url(../img/japan.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.japan:hover {
+  background: url(../img/japanM.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.tun {
+  background: url(../img/tun.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.tun:hover {
+  background: url(../img/tunM.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.down {
+  margin-top: 85px;
+}
+
+.vniz {
+  margin-bottom: 118px;
+}
+
+.big {
+  background: url(../img/big.webp);
+  width: 100%;
+  height: 650px;
+}
+
+.news {
+  width: 949px;
+  height: 700px;
+  margin: auto;
+}
+
+.foot {
+  width: 949px;
+  height: 300px;
+  margin: auto;
+}
+
+footer {
+  background-color: rgb(53, 49, 49);
+}
+
+.wix {
+  color: grey;
+  font-size: 17px;
+  margin-top: 118px;
+}
+
+.amsativ {
+  font-size: 20px;
+  margin-top: 34px;
+}
+
+.tex {
+  font-size: 25px;
+  margin-top: 34px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a1 {
+  margin-left: 109px;
+  color: black;
+}
+
+.a2 {
+  margin-right: 197px;
+  color: black;
+}
+
+.a3 {
+  margin-left: -212px;
+  color: black;
+}
+
+.b1 {
+  font-size: 56px;
+  color: white;
+  margin-top: 100px;
+}
+
+.uxel {
+  margin-top: 150px;
+}
+
+.silka {
+  margin: 8px;
+  color: white;
+  font-size: 18px;
+}
+
+.fab,
+.far {
+  font-weight: 400;
+  margin-top: 150px;
+}
+
+.mar {
+  margin-left: 22px;
+}
+
+.dif {
+  margin-top: 150px;
+}
+
+.padi {
+  margin: 10px;
+}
+
+/* nkar porfolio */
+
+.kanachM {
+  background: url(../img/kanacM.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.japanp {
+  background: url(../img/japan.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.hark {
+  background: url(../img/hark.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.dexin {
+  background: url(../img/dexin.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.pat {
+  background: url(../img/pat.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.tunw {
+  background: url(../img/tun.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+.spitak {
+  background: url(../img/spitak.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.pool {
+  background: url(../img/pool.webp);
+  width: 292px;
+  height: 295px;
+  background-size: cover;
+}
+
+.none {
+  background-color: white;
+  width: 292px;
+  display: none;
+}
+
+.mek:hover .none {
+  display: block;
+}
+section.none {
+  height: 19em;
+  position: relative;
+}
+
+section.none p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tiv {
+  font-size: 76px;
+  text-align: center;
+}
+
+/* about */
+
+.about {
+  width: 300px;
+  height: 140px;
+  font-size: 75px;
+}
+
+.difer {
+  margin-top: 350px;
+}
+
+.con {
+  width: 489px;
+  height: 81px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 100px;
+}
+
+.cont {
+  height: 183px;
+  width: 489px;
+  margin-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.vra {
+  margin-top: 180px;
+}
+
+.valer {
+  width: 200px;
+  height: 200px;
+  background: url('../img/valer.webp');
+}
+
+.ema {
+  width: 200px;
+  height: 200px;
+  background: url('../img/ema.webp');
+}
+
+.row {
+  margin-top: 100px;
+  margin-left: -880px;
+}
+
+.anna {
+  width: 200px;
+  height: 200px;
+  background: url('../img/anna.webp');
+  margin-left: 152px;
+}
+
+.anton {
+  width: 200px;
+  height: 200px;
+  background: url('../img/anton.webp');
+  margin-left: 152px;
+}
+
+.my {
+  width: 156px;
+  height: 1px;
+  background-color: black;
+}
+
+.profil {
+  margin-left: 25px;
+  margin-top: 148px;
+  height: 100px;
+}
+
+.kub {
+  width: 950px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.kubi {
+  width: 938px;
+  height: 721px;
+  border: solid black 1px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.arxi {
+  width: 100%;
+  height: 413px;
+  background: url('../img/arxi.webp');
+  background-size: cover;
+}
+
+.user {
+  font-size: 40px;
+  display: flex;
+  color: grey;
+}
+
+.us {
+  font-size: 40px;
+  display: flex;
+  color: grey;
+  margin-top: 0px;
+}
+
+.sakura {
+  width: 268px;
+  height: 70px;
+  display: flex;
+}
+
+.sarada {
+  margin-top: -120px;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+h5 {
+  color: grey;
+  font-size: 20px;
+}
+
+.neji {
+  display: block;
+  height: 43px;
+  width: 153px;
+  margin-top: 34px;
+}
+
+.sai {
+  margin-right: 100px;
+}
+
+.chidori {
+  width: 847px;
+  height: 1px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 71px;
+}
+
+.rasengan {
+  width: 847px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.sirt {
+  color: pink;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.ped {
+  width: 100%;
+  height: 413px;
+  background: url('../img/ped.webp');
+  background-size: cover;
+}
+
+.nani {
+  display: block;
+  height: 43px;
+  width: 246px;
+  margin-top: 34px;
+}
+
+.balkon {
+  width: 100%;
+  height: 413px;
+  background: url('../img/balkon.webp');
+  background-size: cover;
+}
+
+.hajime {
+  display: block;
+  height: 43px;
+  width: 314px;
+  margin-top: 34px;
+}
+
+.matit {
+  width: 100%;
+  height: 413px;
+  background: url('../img/matit.webp');
+  background-size: cover;
+}
+
+.kaput:hover {
+  color: rgb(91, 173, 173);
+}
+
+.zero {
+  display: block;
+  height: 43px;
+  width: 233px;
+  margin-top: 34px;
+}
+
+.kart {
+  width: 100%;
+  height: 413px;
+  background: url('../img/kart.webp');
+  background-size: cover;
+}
+
+.element {
+  display: block;
+  height: 43px;
+  width: 271px;
+  margin-top: 34px;
+}
+
+.minato {
+  display: block;
+  height: 43px;
+  width: 188px;
+  margin-top: 34px;
+}
+
+.metal {
+  width: 100%;
+  height: 413px;
+  background: url('../img/metal.webp');
+  background-size: cover;
+}
+
+.grom {
+  text-decoration: none;
+}
+
+/* nkaragir */
+
+.reg {
+  width: 224px;
+  height: 36px;
+  border: solid 1px;
+  border-color: rgb(91, 173, 173);
+  color: rgb(91, 173, 173);
+  background-color: white;
+  margin-left: 44px;
+  margin-right: 13px;
+}
+
+.madara {
+  width: 938px;
+  height: 2000px;
+  border: solid grey 1px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.t1 {
+  width: 736px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.shop {
+  margin-top: 0px;
+  font-size: 25px;
+  display: inline-flex;
+}
+
+.t2 {
+  width: 736px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.dav {
+  width: 678px;
+  height: 500px;
+  background: url('../img/dav.webp');
+  background-size: cover;
+  margin-bottom: 23px;
+}
+
+hr {
+  width: 740px;
+  height: 1px;
+  background-color: grey;
+}
+
+.itachi {
+  margin-top: 23px;
+  float: left;
+}
+
+.sev {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 0px;
+  margin: 5px;
+  margin-bottom: 28px;
+}
+
+.rasengani {
+  width: 741px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 12px;
+}
+
+.vue:hover {
+  color: rgb(91, 173, 173);
+}
+
+.all {
+  color: black;
+  text-decoration: none;
+}
+
+.all:hover {
+  color: rgb(91, 173, 173);
+}
+
+.yahiko {
+  display: flex;
+  width: 946px;
+  height: 342px;
+  margin-top: 100px;
+  margin-left: 4px;
+}
+
+.boruto {
+  border: solid grey 1px;
+  width: 295px;
+  height: 316px;
+  margin: 10px;
+}
+
+.chunade {
+  height: 165px;
+  width: 100%;
+  background: url('../img/chunade.jpg');
+  background-size: cover;
+  margin: 0px;
+}
+
+.orochi {
+  height: 165px;
+  width: 100%;
+  background: url('../img/orochi.jpg');
+  background-size: cover;
+  margin: 0px;
+}
+
+.jiraya {
+  height: 165px;
+  width: 100%;
+  background: url('../img/jiraya.jpg');
+  background-size: cover;
+  margin: 0px;
+}
+
+.all-in {
+  margin-top: 28px;
+  font-size: 18px;
+  margin-bottom: 51px;
+  margin-left: 25px;
+}
+
+.gic {
+  width: 243px;
+  height: 1px;
+  background-color: grey;
+  margin: auto;
+}
+
+.eye {
+  margin-top: 10px;
+}
+
+.coment {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.coment:hover {
+  color: rgb(91, 173, 173);
+}
+
+.just {
+  justify-content: space-between;
+  display: flex;
+  width: 243px;
+  margin: auto;
+}
+
+.border {
+  height: 267px;
+  width: 944px;
+  border: solid 1px grey;
+  margin-bottom: 22px;
+}
+
+.line {
+  width: 742px;
+  height: 1px;
+  border: grey;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.reset {
+  height: 42px;
+  width: 101px;
+  background-color: rgb(53, 49, 49);
+  color: white;
+}
+
+.davo {
+  width: 678px;
+  height: 500px;
+  background: url('../img/davo.webp');
+  background-size: cover;
+  margin-bottom: 23px;
+}
+
+.poqr {
+  height: 165px;
+  width: 100%;
+  background: url('../img/poqr.jpg');
+  background-size: cover;
+  margin: 0px;
+}
+
+.pain {
+  width: 678px;
+  height: 500px;
+  background: url('../img/test.webp');
+  background-size: cover;
+  margin-bottom: 23px;
+}
+
+.visota {
+  width: 678px;
+  height: 500px;
+  background: url('../img/visota.webp');
+  background-size: cover;
+  margin-bottom: 23px;
+}
+
+.qartez {
+  width: 678px;
+  height: 500px;
+  background: url('../img/qartez.webp');
+  background-size: cover;
+  margin-bottom: 23px;
+}
+
+.limbo {
+  width: 678px;
+  height: 500px;
+  background: url('../img/limbo.webp');
+  background-size: cover;
+  margin-bottom: 23px;
+}
+
+.endKub {
+  width: 910px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.inp {
+  width: 100%;
+  height: 47px;
+  outline: none;
+}
+
+.inptext {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  outline: none;
+}
+
+.otp {
+  background-color: white;
+}
+
+.header__link:hover {
+  color: grey;
+}
+
+.otp:hover {
+  color: rgb(80, 71, 71);
+}
